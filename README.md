@@ -1,43 +1,49 @@
-K-Means Clustering From Scratch
+# K-Means Clustering Algorithm from Scratch
 
-This repository contains code for implementing a K-Means clustering algorithm from scratch in Python and comparing it to the scikit-learn implementation.
+## Project Overview
 
-Project Overview
+Welcome to the K-Means Clustering project! In this project, we'll build a k-means clustering algorithm from scratch. Clustering is a fantastic way to find hidden patterns in your data, and k-means is one of the most popular methods for achieving this.
 
-Build a K-Means clustering algorithm from scratch using Python and Pandas.
-Compare the custom implementation to the reference implementation from scikit-learn.
-Project Steps
+We'll implement our algorithm using Python and pandas, and then compare it to the scikit-learn implementation.
 
-Pseudocode: Develop pseudocode for the K-Means algorithm.
-Implementation: Code the K-Means algorithm in Python.
-Visualization: Plot the identified clusters using the custom algorithm.
-Comparison: Compare the performance of the custom algorithm to scikit-learn's K-Means implementation.
-K-Means Clustering Overview
+## Project Steps
 
-K-Means is an unsupervised machine learning technique used to group data points into clusters based on their similarities. It helps uncover patterns in unlabeled data, enabling more effective data analysis.
+1. Write pseudocode for the algorithm
+2. Implement the k-means algorithm
+3. Visualize the clusters produced by our algorithm
+4. Compare the performance with scikit-learn's implementation
 
-K-Means Algorithm
+## K-Means Overview
 
-Specify k: Define the desired number of clusters (k).
-Centroid Initialization: Randomly initialize a centroid (center point) for each cluster.
-Cluster Assignment: Assign each data point to the closest centroid based on distance (usually Euclidean distance).
-Centroid Update: Recalculate the centroid of each cluster as the geometric mean of the data points assigned to it.
-Repeat Steps 3 & 4: Repeat steps 3 and 4 until the centroids no longer change significantly. Each repetition is called an iteration.
-Code
+K-means clustering is an unsupervised machine learning technique that helps in grouping similar data points. It works through the following iterative process:
 
-The code for this project is located in the clustering.ipynb Jupyter Notebook file.
+1. Choose the number of clusters (k).
+2. Randomly initialize the centroids for each cluster.
+3. Assign data points to the nearest centroid.
+4. Update the centroids based on the mean of the assigned data points.
+5. Repeat steps 3 and 4 until the centroids stabilize.
 
-Local Setup
+## Code Structure
 
-Installation
+The code for this project is available in the `cluster.ipynb` notebook.
 
-Ensure you have the following installed locally:
+### File Details
 
-Python (version 3.8 or higher)
-Python packages:
-pandas
-numpy
-scikit-learn
-Data
+- `cluster.ipynb` - Contains the full implementation of the k-means clustering algorithm.
+
+## Local Setup
+
+### Installation
+
+To run this project, you'll need:
+
+- Python 3.8 or higher
+- The following Python packages:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+
+
+## Data
 
 The specific file used is male_players24.csv.
