@@ -46,4 +46,4 @@ To run this project, you'll need:
 
 ## Data
 
-We'll be using data from FIFA, which you can download [here]([https://example.com/download-link](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset?select=male_players.csv)). The specific file used is male_players.csv. I just rename it to male_players24.csv to be specific
+We'll be using data from FIFA, which you can download [here](https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset?select=male_players.csv). The specific file used is male_players.csv. I just rename it to male_players24.csv to be specific
